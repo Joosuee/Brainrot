@@ -30,16 +30,19 @@ header {
 
 .ficha_info {
     width: auto;
-    text-align: justify;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    width: 600px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 20px;
 }
 
-.info {
+.contenedor__main {
     display: flex;
     flex-direction: column;
 }
+
+
+
 
 .texto {
     display: flex;
@@ -49,10 +52,8 @@ header {
 .titutlo__dos {
     text-align: center;
     padding: 10px;
-
 }
 
 img {
-    width: 250px;
-    height: 250px;
+    width: 100%;
 }
