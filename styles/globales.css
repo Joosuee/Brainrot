@@ -14,6 +14,18 @@ p {
 
 h2,
 h3,
-p {
+p,
+a {
     font-family: "Saira", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    padding: 10px;
+    background-color: aqua;
+    width: min-content;
+    margin: 10px auto;
+    border-radius: 50px;
 }
